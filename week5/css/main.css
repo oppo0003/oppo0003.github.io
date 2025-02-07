@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;rgb(190, 221, 221);
+    font-family: Arial, sans-serif;
+}
+/* this is a comment */
+
+h1{
+    color: #2f0d0d;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1, h2{
+    text-decoration: underline;
+    color: green;
+}
+
+/* class Selector */
+.btn{
+    background-color: #2f0d0d;
+    color: aliceblue;
+    padding: 16px 20px;
+    border-radius: ppx;
+    cursor: pointer;
+}
+
+/* id selector */
+#introPara{
+font-style: italic;
+}
+
+article h2{
+    color: red;
+}
+h2{
+    color: orange;
+}
+.hobbylist{
+    color: currentColor;
+}
+/*{
+color: rgb(93, 0, 225);
+}*/
+
+/* adding child number, adding odd or even. 2n+1 */
+ul li:nth-child(2n+1){
+    color: red;
+}
+
+.secondClass{
+    border: 2px solid, red;
+}
