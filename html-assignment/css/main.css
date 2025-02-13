@@ -1,3 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
 header, footer{
-    background-color: brown;
+    color: aqua;
+}
+
+/* class select */
+.btn{
+    background-color: blueviolet;
 }
