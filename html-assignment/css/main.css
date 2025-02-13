@@ -8,6 +8,6 @@ header, footer{
 }
 
 /* class select */
-.btn{
-    background-color: blueviolet;
-}
+.site-title{
+    color: blue;
+  }
