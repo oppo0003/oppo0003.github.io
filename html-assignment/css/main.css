@@ -4,7 +4,7 @@ body{
 }
 
 header, footer{
-    color: rgb(2, 30, 30);
+    color: rgb(19, 209, 209);
 }
 
 /* class select */
@@ -14,3 +14,21 @@ header, footer{
   #my-image{
     box-shadow: 0 0 2px 1px rgb(0, 0, 0);
   }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .no-underline {
+    text-decoration: none;
+}
+/* make a comment */
+a{
+    text-decoration: none;
+    background-color: none;
+    border: 2px solid #333;
+    padding: 5px 10px;
+}
+a:hover, a:focus{
+    background-color: #007bff;
+    color: white;
+}
