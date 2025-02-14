@@ -13,22 +13,22 @@ header, footer{
   }
   #my-image{
     box-shadow: 0 0 2px 1px rgb(0, 0, 0);
-  }
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  .no-underline {
-    text-decoration: none;
+ 
+/* remove the bullets from unordered list inside the nav */
+nav ul{
+    list-style-type: 0;
+    padding: none;
+    margin: 0;
 }
-/* make a comment */
-a{
+
+
+/* Remove the underline from the links */
+nav a {
     text-decoration: none;
-    background-color: none;
-    border: 2px solid #333;
-    padding: 5px 10px;
-}
-a:hover, a:focus{
-    background-color: #007bff;
+    display: inline-block;
+} 
+nav a{
+    background-color: aqua;
+    border-radius: 5px;
     color: white;
 }
