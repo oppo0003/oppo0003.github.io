@@ -1,6 +1,37 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+
+
 .box{
-    with: 100px
-    height: 100
-    background-color: red
-    border: 5px
+    width: 100px;
+    height: 100;
+    background-color: rgb(0, 183, 255);
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px, auto;
+    /* box-sizing: border-box;  */
+}
+li{
+    color: rgb(16, 126, 126);
+}
+
+a{
+    color: inherit;
+    color: red;
+    color: revert;
+}
+
+a{
+    width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+}
+img{
+    float: right;
 }

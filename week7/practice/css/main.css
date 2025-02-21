@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+    color: blue;
+    line-height: 1.5;
+}
+.container{
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+header{
+    background-color: lightblue;
+    color: aliceblue;
+    padding: 10rem 0;
+    background-image: url("../images/bread.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+}
