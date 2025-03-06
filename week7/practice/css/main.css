@@ -7,18 +7,30 @@ body{
     max-width: 90vw;
     margin: 0 auto;
 }
-p{
-    font-size: 1.5em;
-}
+
 
 header{
     background-color: lightblue;
     color: aliceblue;
-    padding: 10rem 0;
+    padding: 6rem 0 3rem 0;
     background-image: url("../images/bread.jpg");
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
+}
+h1{
+font-size: 5.063em;
+text-transform: uppercase;
+}
+h2{
+    font-size: 3.375em;
+}
+h3{
+    font-size: 2.25em;
+}
+p{
+    font-size: 1.5em;
 }
 nav ul li{
     background-color: aliceblue;
