@@ -56,7 +56,6 @@ footer {
     list-style-type: disc;
 }
 
-/* Add padding inside the facts list */
 .starfish-facts ul {
     padding: 15px;
 }
@@ -214,36 +213,27 @@ article p {
         padding: 8px;
         margin: 10px;
     }
-    
-    /* Change the button's background color on hover */
     .submit-btn:hover {
         background: rgb(187, 255, 255);
     }
-    
-    /* Use flexbox for form layout and align form elements vertically */
     form {
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
-    
-    /* Add a border around the form */
     .outline {
         border: 2px solid;
         margin: 10px;
     }
-    
-    /* Add padding to article headers */
+
     article h2 {
         padding: 10px;
     }
     
-    /* Set margin for the contact section heading */
     #get-in-touch {
         margin: 10px;
     }
     
-    /* Add margin to paragraphs inside the article */
     article p {
         margin: 10px;
     }
