@@ -1,3 +1,83 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+header{
+    position: relative;
+    text-align: center;
+}
+
+.header-image{
+    width: 80%;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgb(red, green, blue);
+}
+
+article{
+    margin: 20px;
+}
+
+.article-image{
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+    height: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+.facts{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
+    margin: 20px;
+}
+
+.fact ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.form-section{
+    display: block;
+    margin-top: 10px;
+}
+
+.form-section input, 
+.form-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: bisque;
 }
