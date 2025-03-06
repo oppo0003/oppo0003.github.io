@@ -7,6 +7,9 @@ body{
     max-width: 90vw;
     margin: 0 auto;
 }
+p{
+    font-size: 1.5em;
+}
 
 header{
     background-color: lightblue;
@@ -16,4 +19,34 @@ header{
     background-repeat: no repeat;
     background-size: cover;
     background-position: center;
+}
+nav ul li{
+    background-color: aliceblue;
+    color: rgb(93, 93, 68);
+}
+aside{
+    background-color: aqua
+    padding: 0.8rem;
+    border-radius: 5px
+    margin-top: 1rem;
+}
+aside ul{
+list-style: disc;
+}
+section{
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0, 1);
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+footer{
+    background-color: rgb(107, 107, 75);
+    color: aliceblue;
+    padding: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+footer p{
+    font-size: 1rem;
 }
