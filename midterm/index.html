@@ -3,48 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midterm Project</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>The Starfish</title>
 </head>
 <body>
+    <div class="main-container">
     <header>
-         <img src="./image/bread.jpg" alt="bread and milk">
-
-    <hi>MIDTERM PROJECT</hi>
-     
-    </header>
-    
-    <article>
-    
-    <DIv class="floatParac-right">
-        <img src="./assets/cut.jpg" alt="Beautiful cut">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatibus sapiente iusto eum veritatis molestiae deserunt sequi provident vitae quidem dolorem temporibus, inventore blanditiis voluptas deleniti? Suscipit error nam modi.</p>
-    </DIv>
-    </article>
-    <section>
-        <section class="I am list">
-            <h2>types of list</h2>
+        <img src="image/lone-starfish-wide.jpg" alt="Wide image of a Starfish">
+        <h1> Some interesting facts about Starfish</h1>
+        <nav>
             <ul>
-                <li>Descriptive list</li>
-                <li>Ordered list</li>
-                <li>unordered list</li>
+                <li><a href="home">Home</a></li>
+                <li><a href="story">Story</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
-            <h3>Contact Us</h3>
-            <form>
-                <form action="#" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="email" name="name" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email required">
-
-                    <label for="Message">Message<label>
-                    <textarea id="Message" name="Message" required></textarea>
-
-                    <button type="submit">Submit<button> 
-            </form>
+        </nav>
+    </header>
+    <section class="content-section">
+        <h2>The Life of a Starfish</h2>
+        <img src="image/lone-starfish.jpg" alt="Starfish with wrapped text" class="image-float">
+        <p>A young girl was walking along a beach upon which thousands of starfish had been washed up during a terrible storm. When she came to each starfish, she would pick it up, and throw it back into the ocean. People watched her with amusement. She had been doing this for some time when a man approached her and said, “Little girl, why are you doing this? Look at this beach! You can't save all these starfish. You cant begin to make a difference!” The girl seemed crushed, suddenly deflated. But after a few moments, she bent down, picked up another starfish, and hurled it as far as she could into the ocean. Then she looked up at the man and replied,
+        </p>
+        <P>Starfish have existed on Earth for at least 450 million years, and are what is known as a keystone species in their habitat. A keystone species is a species that has a large effect on the ecology and natural environment in which it lives. Starfish move across the ocean floor using small tube feet which cover their underside.Starfish are among the most popular and recognizable types of marine life, which is due partly to their appealing shape, and also due to the fact that they live in many ocean habitats, from rock pools and shallows to coral reefs and the deepest depths. They are among the most well-known types of invertebrates.</P>
     </section>
-   
+    <section class="starfish-facts">
+        <h2>Facts-Types of Starfish</h2>
+        <ul>
+            <li>Sunflower Star.</li>
+            <li>Royal starfish.</li>
+            <li>Chocolate Chip Sea Star.</li>
+            <li>Giant Spined Star.</li>
+        </ul>
+    </section>
+        <h2 id="get-in-touch">Contact Us for More Information</h2>
+       <form>
+        <form class="contact">
+            <label for="full-name">Your Name:</label>
+            <input type="text" id="full-name" name="name">
+            <label for="user-email">Your Email:</label>
+            <input type="email" id="user-email" name="email">
+            
+            <label for="user-message">Your Message:</label>
+            <input type="text" id="user-message" name="message"> 
+        <h2>Would you like to visit the Starfish?</h2>
+        <div class="visit-options">
+            <label><input type="radio" name="visit-interest" value="yes">Yes</label>
+            <label><input type="radio" name="visit-interest" value="no">No</label>
+            <label><input type="radio" name="visit-interest" value="maybe">Maybe</label>
+        </form>     
+        </div>
+        <button class="submit-btn">Send</button>
+           <footer>
+            <p>&copy; The Starfish</p>
+            </footer>
+     </div>
     
 </body>
 </html>

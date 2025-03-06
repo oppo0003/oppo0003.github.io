@@ -2,21 +2,21 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    background-color: rgb(174, 192, 192);
 }
 
 header{
-    position: relative;
+    position: middle;
     text-align: center;
 }
 
 .header-image{
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
 h1{
-    position: absolute;
+    position: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,6 +29,11 @@ article{
     margin: 20px;
 }
 
+section{
+
+}
+
+
 .article-image{
     float: left;
     margin-right: 20px;
@@ -37,10 +42,10 @@ article{
 }
 
 p{
-    text-align: justify;
+    text-align: float right;
 }
 
-.facts{
+.list{
     background-color: aquamarine;
     padding: 20px;
     border-radius: 8px;
@@ -48,7 +53,7 @@ p{
     margin: 20px;
 }
 
-.fact ul{
+.list ul{
     list-style-type: disc;
     margin-left: 20px;
 }
