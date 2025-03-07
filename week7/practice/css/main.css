@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    color: blue;
+    color: rgb(4, 4, 24);
     line-height: 1.5;
 }
 .container{
@@ -33,13 +33,16 @@ p{
     font-size: 1.5em;
 }
 nav ul li{
-    background-color: aliceblue;
-    color: rgb(93, 93, 68);
+    color: rgb(39, 122, 104);
+    display: inline;
+}
+a{
+    color: inherit;
 }
 aside{
-    background-color: aqua
+    background-color: aqua;
     padding: 0.8rem;
-    border-radius: 5px
+    border-radius: 5px;
     margin-top: 1rem;
 }
 aside ul{
@@ -61,4 +64,12 @@ footer{
 }
 footer p{
     font-size: 1rem;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+
+tr, th, td {
+    border: 2px solid black
 }

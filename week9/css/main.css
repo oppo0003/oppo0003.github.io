@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    font-size: 3rem;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    border: 5px solid black;
+}
+/* Task: change the background color of div after 650px device size and add border radius */
+@media screen and (min-width: 650px){
+    /* these style will be applied to minimum width of 650px and over */
+    body{
+        background-color: rgb(197, 197, 81);
+    }
+    h1{
+        color: darkcyan;
+    }
+    /* change gthe font size of h1 to 4rem between 700px and 800px*/
+    @media screen and (min-width: 700px) and (max-width: 800px)
+    h1{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    body{
+        background-color: rgb(225, 114, 136);
+    }
+    .one{
+        display: none;
+    }
+}
+@media print {
+    display: none;
+    a: : after{
+        content: "<" attr(href);
+    }
+}
