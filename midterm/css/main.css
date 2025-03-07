@@ -1,23 +1,18 @@
-/* Set the body's font and background color */
 body {
     font-family: sans-serif;
     background-color: #aad4cf;
     margin: 0;
     padding: 0;
 }
-
-/* Position the header relative to its container */
 header {
     position: relative;
     text-align: center;
 }
 
-/* Ensure the header image spans the full width */
 header img {
     width: 100%;
 }
 
-/* Center the heading text on the header image */
 header h1 {
     position: absolute;
     top: 50%;
@@ -27,8 +22,6 @@ header h1 {
     padding: 10px;
     color: white;
 }
-
-/* Style the navigation menu with flexbox */
 nav ul {
     list-style: none;
     padding: 0;
@@ -39,8 +32,6 @@ nav ul {
     justify-content: space-around;
     font-size: 25px;
 }
-
-/* Add separators between navigation items */
 nav ul li {
     padding: 5px 60px;
     position: relative;
@@ -48,93 +39,63 @@ nav ul li {
 nav ul li:not(:last-child) {
     border-right: 2px solid black;
 }
-
-/* Make images float to the left with some margin */
 .image-float {
     float: left;
     margin-right: 8px;
     width: 180px;
     padding: 10px;
 }
-
-/* Style the footer with text aligned to the right */
 footer {
     text-align: right;
     margin: 15px;
     padding: 15px;
 }
-
-/* Add padding and rounded corners to the facts section */
 .starfish-facts {
     padding: 10px;
     border-radius: 5px;
     list-style-type: disc;
 }
-
-/* Add padding inside the facts list */
 .starfish-facts ul {
     padding: 15px;
 }
-
-/* Add top margin to form labels */
 form label {
     margin-top: 10px;
 }
-
-/* Add padding to the message input box and allow vertical resizing */
 #user-message {
     padding: 50px;
     resize: vertical;
 }
-
-/* Remove the underline from links and change the text color */
 a {
     text-decoration: none;
     color: #000000;
 }
-
-/* Style the main container with a background color */
 .main-container {
     background-color: #d4e9e7;
     width: 700px;
     margin: auto;
 }
-
-/* Style the send button with padding and margin */
 .submit-btn {
     padding: 8px;
     margin: 10px;
 }
-
-/* Change the button's background color on hover */
 .submit-btn:hover {
     background: rgb(187, 255, 255);
 }
-
-/* Use flexbox for form layout and align form elements vertically */
 form {
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
-
-/* Add a border around the form */
 .outline {
     border: 2px solid;
     margin: 10px;
 }
-
-/* Add padding to article headers */
 article h2 {
     padding: 10px;
 }
-
-/* Set margin for the contact section heading */
 #get-in-touch {
     margin: 10px;
 }
-
-/* Add margin to paragraphs inside the article */
 article p {
     margin: 10px;
 }
