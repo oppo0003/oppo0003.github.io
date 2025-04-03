@@ -1,0 +1,48 @@
+header, nav, main, footer{
+ padding: 1rem;
+}
+
+header{
+    background-color: cadetblue;
+    grid-area: header;
+}
+
+nav{
+    background-color: rgb(18, 156, 156);
+    grid-area: nav;
+}
+
+main{
+    background-color: rgb(204, 183, 156);
+    grid-area: main;
+}
+
+footer{
+    background-color: aquamarine;
+    grid-area: footer;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr; ;
+    
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer"
+    ;
+
+}
+
+@media screen and (min-width: 700px) {
+    .container{
+       grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "header header header"
+        "nav main main"
+        "nav main main"
+        "footer footer footer"
+        ;
+    }
+    
+}
