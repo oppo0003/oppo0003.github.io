@@ -7,22 +7,27 @@
 :root {
     --primary: #000000;
     --primary-dark: #f0b73d;
+    --primary-accent: #c19416;
     --secondary: #ecbf58;
     --accent: #c19416;
     --dark: #f06b6b;
     --light: #f0cece;
     --gray: #7f4b4b;
-    --dark-gray: #ae1e1e;
-    
-    /* Spacing Variables */
+    --gray-dark: #ae1e1e;
+    --gray-light: #ffe9e9;
+    --gray-medium: #cfa5a5;
+    --space-xs: 8px;
     --space-sm: 15px;
     --space-md: 30px;
     --space-lg: 60px;
     --space-xl: 80px;
-    
-    /* Border Radius */
     --radius-sm: 4px;
     --radius-md: 8px;
+    --transition-fast: 0.2s ease-in-out;
+    --transition-normal: 0.3s ease-in-out;
+    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -48,18 +53,18 @@ img {
 }
 
 h1, h2, h3, h4 {
-    margin-bottom: var(--space-sm);
-    line-height: 1.2;
     font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: var(--space-sm);
     color: var(--primary);
 }
 
-h1 { 
+h1 {
     font-size: 2.25rem;
     line-height: 1.1;
 }
 
-h2 { 
+h2 {
     font-size: 1.875rem;
     padding-bottom: var(--space-xs);
     margin-bottom: var(--space-md);
@@ -76,20 +81,19 @@ h2::after {
     background: var(--primary-accent);
 }
 
-h3 { 
+h3 {
     font-size: 1.5rem;
-    color: var(--primary);
 }
 
-h4 { 
+h4 {
     font-size: 1.125rem;
     font-weight: 600;
 }
 
 p {
     margin-bottom: var(--space-sm);
-    color: var(--dark);
     font-size: 1rem;
+    color: var(--dark);
     line-height: 1.6;
 }
 
@@ -98,15 +102,14 @@ p {
     align-items: center;
     justify-content: center;
     padding: 12px 24px;
-    text-decoration: none;
+    min-width: 160px;
+    border: none;
     border-radius: var(--radius-sm);
     font-weight: 600;
-    transition: all var(--transition-normal);
-    border: none;
-    cursor: pointer;
     font-size: 1rem;
-    text-align: center;
-    min-width: 160px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all var(--transition-normal);
 }
 
 .btn-primary {
@@ -118,9 +121,9 @@ p {
 .btn-primary:hover {
     background: var(--accent);
     color: var(--primary);
-    border-color: var(--accent);
     transform: translateY(-2px);
     box-shadow: var(--shadow-sm);
+    border-color: var(--accent);
 }
 
 .btn-secondary {
@@ -156,7 +159,6 @@ p {
 
 .header .container {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -183,9 +185,8 @@ p {
     text-decoration: none;
     font-weight: 600;
     padding: 8px 0;
-    display: block;
-    position: relative;
     font-size: 1.0625rem;
+    position: relative;
     transition: color var(--transition-fast);
 }
 
@@ -272,16 +273,15 @@ p {
 
 .hero-content h1 {
     font-size: 2.5rem;
-    margin-bottom: var(--space-sm);
     color: var(--light);
+    margin-bottom: var(--space-sm);
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
 .hero-content p {
     font-size: 1.125rem;
-    margin-bottom: var(--space-md);
     color: var(--gray-light);
-    max-width: 600px;
+    margin-bottom: var(--space-md);
 }
 
 .hero::after {
@@ -292,8 +292,8 @@ p {
     width: 100%;
     height: 100px;
     background: linear-gradient(to bottom, transparent, var(--primary));
-    z-index: 1;
     opacity: 0.6;
+    z-index: 1;
 }
 
 .about {
@@ -325,9 +325,11 @@ p {
         flex-direction: row;
         align-items: center;
     }
+
     .about-image {
         flex: 0 0 45%;
     }
+
     .about-content {
         flex: 1;
         padding-left: var(--space-lg);
@@ -375,13 +377,13 @@ p {
 }
 
 .service-card h3 {
-    margin-bottom: var(--space-sm);
     color: var(--primary);
+    margin-bottom: var(--space-sm);
 }
 
 .service-card p {
-    margin-bottom: var(--space-md);
     color: var(--gray-dark);
+    margin-bottom: var(--space-md);
 }
 
 .service-card .btn {
@@ -402,8 +404,7 @@ p {
 
 .vision {
     height: 400px;
-    background: linear-gradient(rgba(42,42,42,0.85), rgba(42,42,42,0.85)), 
-                url('../images/vision.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(42,42,42,0.85), rgba(42,42,42,0.85)), url('../images/vision.jpg') center/cover no-repeat;
     color: var(--light);
     display: flex;
     align-items: center;
@@ -417,7 +418,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, rgba(212,160,23,0.2) 0%, rgba(42,42,42,0.8) 100%);
+    background: linear-gradient(45deg, rgba(212,160,23,0.2), rgba(42,42,42,0.8));
 }
 
 .vision .container {
